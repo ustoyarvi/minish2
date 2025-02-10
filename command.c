@@ -6,7 +6,7 @@
 /*   By: dsedlets < dsedlets@student.42yerevan.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/09 20:03:39 by dsedlets          #+#    #+#             */
-/*   Updated: 2025/02/10 09:43:07 by dsedlets         ###   ########.fr       */
+/*   Updated: 2025/02/10 10:03:26 by dsedlets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	execute_command(char *command, char **envp)
 		return ;
 	}
 	if (!ft_strcmp(args[0], "exit") || !ft_strcmp(args[0], "cd") ||
-	 	!ft_strcmp(args[0], "pwd") || !ft_strcmp(args[0], "echo")) ||
+	 	!ft_strcmp(args[0], "pwd") || !ft_strcmp(args[0], "echo") ||
 	 	!ft_strcmp(args[0], "export") || !ft_strcmp(args[0], "unset") ||
         !ft_strcmp(args[0], "env"))
 	{
